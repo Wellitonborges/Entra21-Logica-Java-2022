@@ -2,6 +2,8 @@ package br.com.entra21.variaveis;
 
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -48,9 +50,9 @@ public class Main {
 		
 		Scanner entrada;
 		entrada = new Scanner(System.in);
-		
+		/*
 		System.out.println("Por Favor qual é o seu nome?");
-		nome = entrada.next();
+		nome = entrada.nextLine();
 		
 		System.out.println("Me informe sua idade: ");
 		minhaIdade = entrada.nextByte();
@@ -59,20 +61,41 @@ public class Main {
 		System.out.println("Bem Vindo "+nome+" Agora consigo interagir com usuario");
 		System.out.println("Agora ja sei que você tem "+minhaIdade+" Anos de idade.");
 		
+		System.out.println("");
      	System.out.println(nome+" Para melhor atender preciso saber qual é sua altura");
 		altura = entrada.nextFloat();
 		
+		System.out.println("Que legal "+nome+" sua altura é de "+altura+" Parece uma altura otima. ");
 		System.out.println("Então "+nome+" você tem"+minhaIdade+ " e você tem "+altura+" de altura.");
 		
-		System.out.println("Qual é seu sdalario que pretende Ganhar Programando?");
+		System.out.println("");
+		System.out.println("Qual é seu salario que pretende Ganhar Programando?");
 		salario = entrada.nextFloat();
 		
-		System.out.println("Então "+nome+ " No Momento Não OCnseguimos Pagar o salario de "+salario+" Para alguem que não sabe programar.");
-		System.out.println("Tente aprender mais para conseguirmos Pagar melhor Para você");
-		System.out.println("Muito Obrigado bom Aporendizado "+nome);
+		System.out.println("");
+		System.out.println("Então "+nome+ " No Momento Não Cnseguimos Pagar o salario de "+salario+"$ Reais Para alguem que não sabe programar.");
+		System.out.println("");
+		System.out.println("Tente aprender mais para conseguirmos Pagar melhor Para você.welliton");
+		System.out.println("");
+		System.out.println("Muito Obrigado bom Aporendizado "+nome+".");
+		*/
 		
 		
+		nome = JOptionPane.showInputDialog("Me infor seu nome completo?"); // syso e Scanner ao mesmo tempo
 		
+		JOptionPane.showMessageDialog(null, "Legal agora eu sei seu nome que é "+nome);
+		
+		minhaIdade = Byte.parseByte(
+				JOptionPane.showInputDialog("Me Informe sua idade")
+				);
+				
+		salario = Float.parseFloat(
+				JOptionPane.showInputDialog("Me informe seu salario")
+				);
+		
+		JOptionPane.showMessageDialog(null," Então " +nome+" sua idade é "+minhaIdade+ " e você ganha "+salario+"R$ Reais.");
+		
+		JOptionPane.showMessageDialog(null, "Parabéns voc^we ganha muito bem, mais estudando com Oliota pode ganhar muito mais.");
 		
 		
 		
