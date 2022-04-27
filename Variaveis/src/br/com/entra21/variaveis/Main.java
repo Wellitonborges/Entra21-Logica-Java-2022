@@ -95,7 +95,7 @@ public class Main {
 		
 		JOptionPane.showMessageDialog(null," Então " +nome+" sua idade é "+minhaIdade+ " e você ganha "+salario+"R$ Reais.");
 		
-		JOptionPane.showMessageDialog(null, "Parabéns voc^we ganha muito bem, mais estudando com Oliota pode ganhar muito mais.");
+		JOptionPane.showMessageDialog(null, "Parabéns você ganha muito bem, mais estudando com Oliota pode ganhar muito mais.");
 		
 		
 		
