@@ -32,7 +32,7 @@ public class Main {
 		 
 		 
 		 System.out.println("Area é "+base+" + "+altura);
-		 System.out.println("Perimetro é "+base+" + "+base+" + "+altura+" + "+alt);
+		 System.out.println("Perimetro é "+base+" + "+base+" + "+altura+" + ");
 		 System.out.println("O resultado da sua area é: "+area+" , o resultado do perimetro é: "+perimetro);
 		 
 		 
