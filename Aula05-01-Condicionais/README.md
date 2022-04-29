@@ -1,0 +1,8 @@
+#aprendendo sobre condicional if
+
+
+##serve para tomar decisões no codigo com base em condições
+
+- if(condicao){
+-  //conjunto de codigos executados quando a condção resulta em true
+- }
