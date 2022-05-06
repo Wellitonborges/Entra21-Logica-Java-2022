@@ -21,7 +21,7 @@ public class Main {
 		switch (opcao.toLowerCase()) {
 
 		case "sim":
-			calculoCalcularoda();
+			calculoCalcularoda(1,2);
 			
 		
 			break;
@@ -74,7 +74,7 @@ public class Main {
 				break;
 		}
 		
-		return resultado ;
+		return numero1;
 	}
 
 }
