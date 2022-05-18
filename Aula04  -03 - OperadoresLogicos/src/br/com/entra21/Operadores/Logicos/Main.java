@@ -16,6 +16,8 @@ public class Main {
 		System.out.println("F && F = F");
 		
 		
+		
+		
 		byte idade=19;
 		float altura=1.8f;
 		double dinheiro;
@@ -43,7 +45,7 @@ public class Main {
 		//           (true)    &&  (true)      &&  (false)
 		//            ( true)  && (false)
 		//            ( false )
-		
+		//
 		idade=30;
 		altura=2.15f;
 		dinheiro=100000;
